@@ -3,12 +3,12 @@ import './globals.css'
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
-  title: 'Drishti Technologies - AI-Powered Football Analytics',
+  title: 'Thinking Engines - AI-Powered Football Analytics',
   description: 'We Empower World\'s Passion for Football - Revolutionary AI technology for real-time foul detection and comprehensive match analytics',
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: '/logo.jpg',
+    shortcut: '/logo.jpg',
+    apple: '/logo.jpg',
   },
 }
 

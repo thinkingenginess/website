@@ -110,7 +110,7 @@ export default function HomePage() {
           <div className="flex items-center space-x-2 md:space-x-3">
             <div className="w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden">
               <img 
-                src="/logo.png"
+                src="/logo.jpg"
                 alt="Logo" 
                 className="w-full h-full object-contain"
               />
@@ -395,7 +395,7 @@ export default function HomePage() {
               <div className="m-0">
                 <img 
                   src="/About.jpg" 
-                  alt="About Drishti Technologies" 
+                  alt="About Thinking Engines" 
                   className="w-full h-full object-cover m-0 p-0"
                 />
               </div>

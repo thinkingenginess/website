@@ -27,16 +27,16 @@ export async function POST(request: Request) {
     const resend = new Resend(apiKey);
 
     const data = await resend.emails.send({
-      from: 'Drishti Website <onboarding@resend.dev>',
-      to: ['sales@techatdrishti.com'], // Replace with your email
-      subject: 'New Contact Form Submission - Drishti Technologies',
+      from: 'Thinking Engines Website <onboarding@resend.dev>',
+      to: ['thinkingenginess@gmail.com'], // Replace with your email
+      subject: 'New Contact Form Submission - Thinking Engines',
             html: `
         <!DOCTYPE html>
         <html lang="en">
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>New Contact Form Submission - Drishti Technologies</title>
+          <title>New Contact Form Submission - Thinking Engines</title>
           <style>
             body {
               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -215,7 +215,7 @@ export async function POST(request: Request) {
             <!-- Header -->
             <div class="header">
               <h1>New Contact Submission</h1>
-              <p>Drishti Technologies</p>
+              <p>Thinking Engines</p>
             </div>
 
             <!-- Content -->
