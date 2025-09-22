@@ -1,0 +1,46 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Football Player Silhouette -->
+  <defs>
+    <linearGradient id="jerseyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#dc2626"/>
+      <stop offset="100%" stopColor="#b91c1c"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Body/Jersey -->
+  <ellipse cx="150" cy="200" rx="40" ry="80" fill="url(#jerseyGrad)"/>
+  
+  <!-- Arms -->
+  <ellipse cx="110" cy="180" rx="15" ry="50" fill="url(#jerseyGrad)" transform="rotate(-20 110 180)"/>
+  <ellipse cx="190" cy="180" rx="15" ry="50" fill="url(#jerseyGrad)" transform="rotate(20 190 180)"/>
+  
+  <!-- Head -->
+  <circle cx="150" cy="120" r="25" fill="#d4a574"/>
+  
+  <!-- Helmet -->
+  <path d="M125 105 Q150 95 175 105 L175 125 Q150 115 125 125 Z" fill="#b91c1c"/>
+  
+  <!-- Face mask -->
+  <rect x="140" y="115" width="20" height="3" fill="#666"/>
+  <rect x="138" y="120" width="24" height="2" fill="#666"/>
+  
+  <!-- Legs -->
+  <ellipse cx="135" cy="300" rx="12" ry="60" fill="#fff"/>
+  <ellipse cx="165" cy="300" rx="12" ry="60" fill="#fff"/>
+  
+  <!-- Feet/Cleats -->
+  <ellipse cx="135" cy="370" rx="15" ry="8" fill="#000"/>
+  <ellipse cx="165" cy="370" rx="15" ry="8" fill="#000"/>
+  
+  <!-- Football -->
+  <ellipse cx="200" cy="160" rx="12" ry="20" fill="#8B4513" transform="rotate(45 200 160)"/>
+  <path d="M195 150 Q200 160 205 170" stroke="#fff" strokeWidth="1" fill="none"/>
+  
+  <!-- Jersey Number -->
+  <text x="150" y="210" textAnchor="middle" fill="#fff" fontSize="28" fontWeight="bold">5</text>
+  
+  <!-- Motion lines -->
+  <path d="M50 100 L80 105" stroke="#fff" strokeWidth="2" opacity="0.6"/>
+  <path d="M45 130 L75 135" stroke="#fff" strokeWidth="2" opacity="0.4"/>
+  <path d="M40 160 L70 165" stroke="#fff" strokeWidth="2" opacity="0.3"/>
+</svg> 
