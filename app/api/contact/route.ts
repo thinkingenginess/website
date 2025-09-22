@@ -1,7 +1,8 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: Request) {
   try {
@@ -18,6 +19,12 @@ export async function POST(request: Request) {
       preferredDate,
       preferredTime
     } = body;
+
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ error: 'RESEND_API_KEY is not configured' }, { status: 500 });
+    }
+    const resend = new Resend(apiKey);
 
     const data = await resend.emails.send({
       from: 'Drishti Website <onboarding@resend.dev>',
