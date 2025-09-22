@@ -390,16 +390,7 @@ export default function HomePage() {
               </div>
             </AnimatedSection>
 
-            {/* Right - About Image */}
-            <AnimatedSection className="relative">
-              <div className="m-0">
-                <img 
-                  src="/About.jpg" 
-                  alt="About Thinking Engines" 
-                  className="w-full h-full object-cover m-0 p-0"
-                />
-              </div>
-            </AnimatedSection>
+            
           </div>
         </div>
       </motion.section>
