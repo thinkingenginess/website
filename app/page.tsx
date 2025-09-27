@@ -400,7 +400,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="/playerrun.jpg" 
+            src="/footer.jpg" 
             alt="Player Running" 
             className="w-full h-full object-cover"
           />
@@ -409,10 +409,9 @@ export default function HomePage() {
         </div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-black text-white mb-6 md:mb-8 tracking-tight leading-tight">
-            Ready to Transform<br/>Football?
+            Ready to unlock your full potential?
           </h2>
           <p className="text-base md:text-xl text-white/90 mb-8 md:mb-12 leading-relaxed font-light max-w-3xl mx-auto px-2">
-            Join the revolution in sports analytics and help referees make better decisions with our AI-powered insights and real-time match analysis.
           </p>
           <div className="flex justify-center">
             <ContactForm />
@@ -420,13 +419,41 @@ export default function HomePage() {
         </div>
       </AnimatedSection>
 
-      {/* Footer */}
-      <footer className="relative z-10 px-4 md:px-6 py-12 md:py-16 bg-black">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex justify-center items-center">
-            <div className="text-gray-400 text-center">
-              <p className="text-base md:text-lg">© 2025 Thinking Engines Pvt Ltd. All rights reserved.</p>
+      {/* Footer with Image */}
+      <footer className="relative z-10 bg-black overflow-hidden">
+        {/* Footer Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src="/footer.jpg" 
+            alt="Footer Background" 
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-black/80"></div>
+        </div>
+        
+        {/* Footer Content */}
+        <div className="relative z-10 px-4 md:px-6 py-12 md:py-16">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+              {/* Logo and Company Info */}
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-full overflow-hidden">
+                  <img 
+                    src="/logo.jpg"
+                    alt="Logo" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-white text-xl font-bold">Thinking Engines</h3>
+                  <p className="text-gray-400 text-sm">Empowering Football with AI</p>
+                </div>
+              </div>
               
+              {/* Copyright */}
+              <div className="text-gray-400 text-center md:text-right">
+                <p className="text-base md:text-lg">© 2025 Thinking Engines Pvt Ltd. All rights reserved.</p>
+              </div>
             </div>
           </div>
         </div>
