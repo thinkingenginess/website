@@ -82,7 +82,7 @@ const formSchema = z.object({
   phone: z.string().min(10, "Please enter a valid phone number"),
   state: z.string().min(2, "Please enter your state"),
   city: z.string().min(2, "Please enter your city"),
-  interestedProduct: z.enum(["vision-plus", "vision-pro"], {
+  interestedProduct: z.enum(["preview", "postmatch"], {
     required_error: "Please select a product",
   }),
   preferredDate: z.string().min(1, "Please select a preferred date"),
@@ -415,18 +415,18 @@ export function ContactForm() {
                         >
                           <FormItem className="flex items-center space-x-3 space-y-0">
                             <FormControl>
-                              <RadioGroupItem value="vision-plus" className="border-gray-600 text-white" />
+                              <RadioGroupItem value="preview" className="border-gray-600 text-white" />
                             </FormControl>
                             <FormLabel className="font-normal text-white">
-                              Vision Plus - Real-Time Foul Detection
+                              PreView - Semi Automatic VAR
                             </FormLabel>
                           </FormItem>
                           <FormItem className="flex items-center space-x-3 space-y-0">
                             <FormControl>
-                              <RadioGroupItem value="vision-pro" className="border-gray-600 text-white" />
+                              <RadioGroupItem value="postmatch" className="border-gray-600 text-white" />
                             </FormControl>
                             <FormLabel className="font-normal text-white">
-                              Vision Pro - Complete Match Analytics
+                              PostMatch - Performance Analytics Platform
                             </FormLabel>
                           </FormItem>
                         </RadioGroup>
