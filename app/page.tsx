@@ -447,6 +447,11 @@ export default function HomePage() {
                 <div>
                   <h3 className="text-white text-xl font-bold">Thinking Engines</h3>
                   <p className="text-gray-400 text-sm">Empowering Football with AI</p>
+                  <div className="mt-2 text-xs text-gray-400 ">
+                    <div><span className="font-semibold">CIN:</span> U47413MH2025PTC454989</div>
+                    <div>6th Floor, CIBA, Agnel Technical Education Complex, Near Noor Masjid,</div>
+                    <div>Vashi, Sector 9, Navi Mumbai, Maharashtra - 400703</div>
+                  </div>
                 </div>
               </div>
               
