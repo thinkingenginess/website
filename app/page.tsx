@@ -436,22 +436,14 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
               {/* Logo and Company Info */}
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full overflow-hidden">
-                  <img 
-                    src="/logo.jpg"
-                    alt="Logo" 
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-white text-xl font-bold">Thinking Engines</h3>
-                  <p className="text-gray-400 text-sm">Empowering Football with AI</p>
-                  <div className="mt-2 text-xs text-gray-400 ">
-                    <div><span className="font-semibold">CIN:</span> U47413MH2025PTC454989</div>
-                    <div>6th Floor, CIBA, Agnel Technical Education Complex, Near Noor Masjid,</div>
-                    <div>Vashi, Sector 9, Navi Mumbai, Maharashtra - 400703</div>
-                  </div>
+
+              <div>
+                <h3 className="text-white text-xl font-bold">Thinking Engines Pvt Ltd</h3>
+                <p className="text-gray-400 text-sm">Empowering Football with AI</p>
+                <div className="mt-2 text-xs text-gray-400 ">
+                  <div><span className="font-semibold">CIN:</span> U47413MH2025PTC454989</div>
+                  <div>6th Floor, CIBA, Agnel Technical Education Complex, Near Noor Masjid,</div>
+                  <div>Vashi, Sector 9, Navi Mumbai, Maharashtra - 400703</div>
                 </div>
               </div>
               
