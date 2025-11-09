@@ -128,8 +128,8 @@ export default function HomePage() {
             <a href="#about" className="text-white/80 hover:text-white text-sm font-medium transition-all duration-300 tracking-wide">
               About Us
             </a>
-            <a href="#services" className="text-white/80 hover:text-white text-sm font-medium transition-all duration-300 tracking-wide">
-              Services
+            <a href="#product" className="text-white/80 hover:text-white text-sm font-medium transition-all duration-300 tracking-wide">
+              Product
             </a>
           </div>
 
@@ -216,7 +216,7 @@ export default function HomePage() {
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
-        id="services"
+        id="product"
         className="relative z-10 px-4 md:px-6 py-16 md:py-24 bg-gray-50"
       >
         <div className="max-w-7xl mx-auto">
@@ -226,7 +226,7 @@ export default function HomePage() {
               <div className="relative">
                 <div className="bg-black text-white px-7 py-2.5 md:px-10 md:py-5 lg:px-16 lg:py-5 font-black text-2xl md:text-3xl lg:text-4xl tracking-tight"
                      style={{ clipPath: 'polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%)' }}>
-                  Our Services
+                  Our Product
                 </div>
               </div>
             </div>
